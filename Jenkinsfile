@@ -6,17 +6,14 @@ node {
     }
     stage('java version') {   
 	
-	   sh 'java -version
+	   sh 'java -version'
     
    }
     stage('maven version') {   
 	
-	   sh 'mvn -version
-    
-    }
-    stage('maven version') {   
-	
 	   sh 'mvn -version'
+    
+    
     
     }
     stage('maven validate') {   
